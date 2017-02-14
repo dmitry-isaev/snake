@@ -1,0 +1,88 @@
+html, body {
+	font-family: Verdana, serif;
+	font-size: 12px;
+}
+
+input {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+table, table tr, table tr td {
+	border-collapse:collapse;
+}
+
+.wrapper {
+	float: left;
+}
+
+.header {
+	overflow: hidden;
+	background: #444;
+	padding: 5px;
+	color: #fff;
+	margin: 0 0 5px;
+}
+
+.header .score-wrapper {
+	float: left;
+}
+
+.header .settings {
+	float: right;
+}
+
+.header .settings a:link, .header .settings a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header .settings a:hover, .header .settings a:active {
+	text-decoration: underline;
+}
+
+.area {
+	background: #ccc;
+	padding: 5px;
+}
+
+.area.game_over {
+	background: red;
+}
+
+.settings-wrapper.hidden {
+	display: none;
+}
+
+.settings-wrapper {
+	padding: 5px;
+}
+
+.settings-wrapper ul li {
+	margin-bottom: 10px;
+}
+
+.settings-wrapper ul li span {
+	width: 170px;
+	display: inline-block;
+}
+
+.settings-wrapper input[type=checkbox] {
+	position: relative;
+	top: 2px;
+}
+
+.settings-wrapper .actions-panel {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.settings-wrapper .actions-panel .save, .settings-wrapper .actions-panel .close {
+	float: right;
+	margin-left: 10px;
+}
